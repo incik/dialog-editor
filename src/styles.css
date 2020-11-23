@@ -1,0 +1,49 @@
+body {
+  background: #e2e2e2;
+  font-family: sans-serif;
+}
+
+.App {
+}
+
+.toolbar {
+  margin-bottom: 15px;
+}
+
+.formsArea {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formRow {
+  display: flex;
+}
+
+.dialogFormWrapper {
+  /*width: 50%;
+  margin-bottom: 100px;*/
+}
+
+.dialogForm {
+  width: 300px;
+}
+
+.answerForm {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  background: #fff;
+  padding: 28px;
+  margin-bottom: 28px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132),
+    0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
+  box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132),
+    0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
+  transition: transform 0.3s cubic-bezier(0.1, 0.9, 0.2, 1),
+    opacity 0.3s cubic-bezier(0.1, 0.9, 0.2, 1) 50ms,
+    -webkit-transform 0.3s cubic-bezier(0.1, 0.9, 0.2, 1);
+}

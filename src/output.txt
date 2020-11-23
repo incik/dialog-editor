@@ -1,0 +1,36 @@
+dialogue:
+- id: 1
+  sentense: "Ahoj {{playerName}}! Co t\u011B p\u0159iv\xE1d\xED do na\u0161eho
+    lesa?"
+  answers:
+  - id: 11
+    sentense: "Chci za\u017E\xEDt dobrodru\u017Estv\xED!"
+    goTo: 2
+    effects: []
+  - id: 12
+    sentense: "Pr\xFD tady roste spousta hub!"
+    goTo: 3
+    effects: []
+  - id: 13
+    sentense: "Vlastn\u011B ani nev\xEDm..."
+    goTo: 4
+    effects: []
+  goTo: 0
+  effects: []
+- id: 2
+  sentense: "Tady asi nic dobrodru\u017En\xE9ho neza\u017Eije\u0161, v na\u0161em
+    lese jsou jenom houby, zaj\xEDci a jedna \u010Darod\u011Bjnice!"
+  answers: []
+  goTo: 0
+  effects: []
+- id: 3
+  sentense: "No j\xE9j\xE9! Tady je hub! Jen mus\xED\u0161 si d\xE1vat velk\xFD
+    pozor, m\xE1me tu i spoustu jedovat\xFDch!"
+  answers: []
+  goTo: 0
+  effects: []
+- id: 4
+  sentense: "Tak se zat\xEDm projdi po okol\xED, t\u0159eba t\u011B n\u011Bco zaujme!"
+  answers: []
+  goTo: 0
+  effects: []`;
